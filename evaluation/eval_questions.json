@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "How many PTO days do new employees get per year?",
+    "expected_answer": "New employees (0-2 years of service) get 15 PTO days per year, accruing at 1.25 days per month.",
+    "expected_sources": ["pto-policy.md"],
+    "topic": "pto"
+  },
+  {
+    "id": 2,
+    "question": "What is the PTO carryover limit?",
+    "expected_answer": "Employees may carry over up to 5 unused PTO days into the following calendar year. Carryover days must be used by March 31 or they will be forfeited.",
+    "expected_sources": ["pto-policy.md"],
+    "topic": "pto"
+  },
+  {
+    "id": 3,
+    "question": "How far in advance do I need to request PTO for a week off?",
+    "expected_answer": "For requests exceeding 5 consecutive days, PTO must be requested at least 30 days in advance.",
+    "expected_sources": ["pto-policy.md"],
+    "topic": "pto"
+  },
+  {
+    "id": 4,
+    "question": "What are the password requirements for my account?",
+    "expected_answer": "Passwords must be at least 14 characters, include uppercase, lowercase, number, and special character. They must not contain your name or common words, and must not match your last 12 passwords.",
+    "expected_sources": ["security-policy.md"],
+    "topic": "security"
+  },
+  {
+    "id": 5,
+    "question": "Is SMS-based two-factor authentication allowed?",
+    "expected_answer": "No, SMS-based authentication is not approved due to SIM-swapping vulnerabilities. Approved MFA methods are hardware security keys (YubiKey), authenticator apps, and push notifications via company MDM.",
+    "expected_sources": ["security-policy.md"],
+    "topic": "security"
+  },
+  {
+    "id": 6,
+    "question": "What should I do if my company laptop is stolen?",
+    "expected_answer": "Lost or stolen devices must be reported to IT Security within 1 hour of discovery by emailing security@meridiantech.com or calling extension 9111. IT Security will immediately initiate a remote wipe.",
+    "expected_sources": ["security-policy.md"],
+    "topic": "security"
+  },
+  {
+    "id": 7,
+    "question": "What is the per-person limit for a business lunch?",
+    "expected_answer": "The per-person limit for a business lunch (local) is $30.",
+    "expected_sources": ["expense-policy.md"],
+    "topic": "expenses"
+  },
+  {
+    "id": 8,
+    "question": "How long do I have to submit an expense report after a business trip?",
+    "expected_answer": "Travel-related expense reports must be submitted within 14 days of the trip's end date. General expenses must be submitted within 30 days.",
+    "expected_sources": ["expense-policy.md"],
+    "topic": "expenses"
+  },
+  {
+    "id": 9,
+    "question": "Do I need receipts for all expenses?",
+    "expected_answer": "Receipts are required for all expenses over $25. For expenses under $25, a written description is sufficient.",
+    "expected_sources": ["expense-policy.md"],
+    "topic": "expenses"
+  },
+  {
+    "id": 10,
+    "question": "What are the core hours for remote workers?",
+    "expected_answer": "All remote employees must be available during core hours: 10:00 AM to 3:00 PM in their local time zone.",
+    "expected_sources": ["remote-work-policy.md"],
+    "topic": "remote_work"
+  },
+  {
+    "id": 11,
+    "question": "Can I work fully remote?",
+    "expected_answer": "Fully remote arrangements are available for employees who live more than 75 miles from the nearest office, have been with the company for 1+ years with consistently strong performance, and have VP-level approval.",
+    "expected_sources": ["remote-work-policy.md"],
+    "topic": "remote_work"
+  },
+  {
+    "id": 12,
+    "question": "Is there a home office equipment stipend?",
+    "expected_answer": "Employees may request a one-time $500 home office stipend for ergonomic furniture (desk, chair) after completing 6 months of employment, approved through HR.",
+    "expected_sources": ["remote-work-policy.md"],
+    "topic": "remote_work"
+  },
+  {
+    "id": 13,
+    "question": "How many floating holidays do I get?",
+    "expected_answer": "Full-time employees receive 2 floating holidays per calendar year. Part-time employees receive 1. Floating holidays must be used within the calendar year and do not carry over.",
+    "expected_sources": ["holiday-policy.md"],
+    "topic": "holidays"
+  },
+  {
+    "id": 14,
+    "question": "Is Juneteenth a company holiday?",
+    "expected_answer": "Yes, Juneteenth (June 19) is one of the 11 company-observed paid holidays.",
+    "expected_sources": ["holiday-policy.md"],
+    "topic": "holidays"
+  },
+  {
+    "id": 15,
+    "question": "What is the company's policy on accepting gifts from vendors?",
+    "expected_answer": "Employees may accept modest gifts valued at $50 or less per occasion. Gifts exceeding $50 must be reported to the Legal department. Cash gifts or gift cards are never acceptable.",
+    "expected_sources": ["code-of-conduct.md"],
+    "topic": "conduct"
+  },
+  {
+    "id": 16,
+    "question": "How do I report workplace harassment?",
+    "expected_answer": "Harassment can be reported through: direct manager, HR at hr@meridiantech.com or extension 4200, anonymous ethics hotline at 1-800-555-ETHIC, or the Chief People Officer directly.",
+    "expected_sources": ["code-of-conduct.md"],
+    "topic": "conduct"
+  },
+  {
+    "id": 17,
+    "question": "What is the company match for 401k?",
+    "expected_answer": "The company matches 100% on the first 4% of salary, plus 50% on the next 2%, for a maximum company contribution of 5% of salary.",
+    "expected_sources": ["benefits-policy.md"],
+    "topic": "benefits"
+  },
+  {
+    "id": 18,
+    "question": "How much parental leave do birth parents get?",
+    "expected_answer": "Birth parents are eligible for 12 weeks of fully paid parental leave plus 4 additional weeks at 60% pay. Leave may begin up to 2 weeks before the expected due date.",
+    "expected_sources": ["benefits-policy.md"],
+    "topic": "benefits"
+  },
+  {
+    "id": 19,
+    "question": "What is the tuition reimbursement limit?",
+    "expected_answer": "Employees with 1+ years of service may receive tuition reimbursement of up to $5,250 per year for job-related degree programs or certifications, with manager and HR approval.",
+    "expected_sources": ["benefits-policy.md"],
+    "topic": "benefits"
+  },
+  {
+    "id": 20,
+    "question": "What class of air travel is allowed for a 7-hour flight?",
+    "expected_answer": "For flights over 6 hours, premium economy is the approved class. Business class requires VP approval for flights over 10 hours.",
+    "expected_sources": ["travel-policy.md"],
+    "topic": "travel"
+  },
+  {
+    "id": 21,
+    "question": "What is the hotel budget for travel to New York City?",
+    "expected_answer": "NYC is a Tier 1 city with a maximum nightly hotel rate of $250 (including taxes, excluding resort fees).",
+    "expected_sources": ["travel-policy.md"],
+    "topic": "travel"
+  },
+  {
+    "id": 22,
+    "question": "How long does the company retain employee records?",
+    "expected_answer": "Employee records are retained for 7 years after termination, after which they are securely deleted.",
+    "expected_sources": ["data-privacy-policy.md"],
+    "topic": "data_privacy"
+  },
+  {
+    "id": 23,
+    "question": "What are my rights regarding my personal data held by the company?",
+    "expected_answer": "You have the right of access (request copies of your data), right to rectification (correct inaccurate data), right to deletion, and right to data portability (receive data in CSV or JSON format).",
+    "expected_sources": ["data-privacy-policy.md"],
+    "topic": "data_privacy"
+  },
+  {
+    "id": 24,
+    "question": "What happens during the first week of onboarding?",
+    "expected_answer": "Day 1 includes a building tour, IT setup, HR orientation, welcome lunch, role overview with manager, and meeting your buddy. Days 2-5 include mandatory training, team shadowing, department overviews, and stakeholder meetings.",
+    "expected_sources": ["onboarding-policy.md"],
+    "topic": "onboarding"
+  },
+  {
+    "id": 25,
+    "question": "How long is the probationary period for new hires?",
+    "expected_answer": "All new employees are subject to a 90-day probationary period with check-ins at 30, 60, and 90 days.",
+    "expected_sources": ["onboarding-policy.md"],
+    "topic": "onboarding"
+  }
+]

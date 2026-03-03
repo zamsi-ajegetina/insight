@@ -1,0 +1,501 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "citation_accuracy_pct": 96.0,
+    "groundedness_pct": 93.5,
+    "latency_p50_seconds": 10.923,
+    "latency_p95_seconds": 13.324
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "How many PTO days do new employees get per year?",
+      "topic": "pto",
+      "answer": "New employees accrue PTO based on their length of service, but the exact number of days is not specified in the provided context. However, according to the PTO Accrual Rates for Full-Time Employees, new employees with 0\u20132 years of service accrue 15 days per year.",
+      "citations": [
+        {
+          "document": "pto-policy.md",
+          "section": "3.1 Full-Time Employees",
+          "snippet": "PTO accrues based on length of service as follows: | Years of Service | Annual PTO Days | Monthly Accrual |"
+        }
+      ],
+      "expected_sources": [
+        "pto-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 7.275
+    },
+    {
+      "id": 2,
+      "question": "What is the PTO carryover limit?",
+      "topic": "pto",
+      "answer": "Employees may carry over up to 5 unused PTO days into the following calendar year. Carryover days must be used by March 31 of the new year or they will be forfeited.",
+      "citations": [
+        {
+          "document": "pto-policy.md",
+          "section": "Paid Time Off (PTO) Policy > 5. PTO Carryover > 5.1 Annual Carryover",
+          "snippet": "Employees may carry over up to 5 unused PTO days into the following calendar year. Carryover days must be used by March 31 of the new year or they will be forfeited."
+        }
+      ],
+      "expected_sources": [
+        "pto-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 6.899
+    },
+    {
+      "id": 3,
+      "question": "How far in advance do I need to request PTO for a week off?",
+      "topic": "pto",
+      "answer": "You need to submit your PTO request at least 30 days in advance for a week off, as per [Source: pto-policy.md, Section: 4.1 Request Process].",
+      "citations": [
+        {
+          "document": "pto-policy.md",
+          "section": "4.1 Request Process",
+          "snippet": "Employees must submit PTO requests through the HR portal at least: - 30 days in advance for requests exceeding 5 consecutive days"
+        }
+      ],
+      "expected_sources": [
+        "pto-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 0.0,
+      "latency_seconds": 7.376
+    },
+    {
+      "id": 4,
+      "question": "What are the password requirements for my account?",
+      "topic": "security",
+      "answer": "According to our Information Security Policy, all passwords must meet the following minimum requirements: at least 14 characters in length, include at least one uppercase letter, one lowercase letter, one number, and one special character, must not contain the user's name, username, or common dictionary words, and must not match any of the user's last 12 passwords. [Source: security-policy.md, Section: Information Security Policy > 3. Password Requirements > 3.1 Password Complexity]",
+      "citations": [
+        {
+          "document": "security-policy.md",
+          "section": "Information Security Policy > 3. Password Requirements > 3.1 Password Complexity",
+          "snippet": "All passwords must meet the following minimum requirements: - At least **14 characters** in length - Include at least one uppercase letter, one lowercase letter, one number, and one special character - Must not contain the user's name, username, or common dictionary words - Must not match any of the user's last 12 passwords"
+        }
+      ],
+      "expected_sources": [
+        "security-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 8.005
+    },
+    {
+      "id": 5,
+      "question": "Is SMS-based two-factor authentication allowed?",
+      "topic": "security",
+      "answer": "No, SMS-based two-factor authentication is not allowed due to SIM-swapping vulnerabilities. [Source: security-policy.md, Section: Information Security Policy > 4. Multi-Factor Authentication (MFA) > 4.2 Approved MFA Methods]",
+      "citations": [
+        {
+          "document": "security-policy.md",
+          "section": "Information Security Policy > 4. Multi-Factor Authentication (MFA) > 4.2 Approved MFA Methods",
+          "snippet": "- SMS-based authentication is not approved due to SIM-swapping vulnerabilities."
+        }
+      ],
+      "expected_sources": [
+        "security-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": -1,
+      "latency_seconds": 7.755
+    },
+    {
+      "id": 6,
+      "question": "What should I do if my company laptop is stolen?",
+      "topic": "security",
+      "answer": "If your company laptop is stolen, you must report it to IT Security within 1 hour of discovery by emailing security@meridiantech.com or calling the 24/7 security hotline at extension 9111. IT Security will immediately initiate a remote wipe to protect company data. This is in accordance with the Information Security Policy, specifically section 5.3 Lost or Stolen Devices.",
+      "citations": [
+        {
+          "document": "security-policy.md",
+          "section": "Information Security Policy > 5. Device Security > 5.3 Lost or Stolen Devices",
+          "snippet": "Lost or stolen devices must be reported to IT Security within **1 hour** of discovery by emailing security@meridiantech.com or calling the 24/7 security hotline at extension 9111."
+        }
+      ],
+      "expected_sources": [
+        "security-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 11.941
+    },
+    {
+      "id": 7,
+      "question": "What is the per-person limit for a business lunch?",
+      "topic": "expenses",
+      "answer": "The per-person limit for a business lunch is $30.",
+      "citations": [
+        {
+          "document": "expense-policy.md",
+          "section": "Expense Reimbursement Policy > 4. Expense Categories and Limits > 4.1 Meals and Entertainment",
+          "snippet": "Business lunch (local) | $30"
+        }
+      ],
+      "expected_sources": [
+        "expense-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.923
+    },
+    {
+      "id": 8,
+      "question": "How long do I have to submit an expense report after a business trip?",
+      "topic": "expenses",
+      "answer": "You must submit your expense report within 14 days of the trip's end date. This is stated in the Expense Reimbursement Policy under Expense Report Submission > 5.1 Deadlines.",
+      "citations": [
+        {
+          "document": "expense-policy.md",
+          "section": "Expense Report Submission > 5.1 Deadlines",
+          "snippet": "- Travel-related expense reports must be submitted within **14 days** of the trip's end date"
+        }
+      ],
+      "expected_sources": [
+        "expense-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 20.265
+    },
+    {
+      "id": 9,
+      "question": "Do I need receipts for all expenses?",
+      "topic": "expenses",
+      "answer": "No, you do not need receipts for all expenses. According to the Expense Reimbursement Policy, receipts are required for all expenses over $25. For expenses under $25, a written description of the expense is sufficient [Source: expense-policy.md, Section: Expense Reimbursement Policy > 5.2 Required Documentation].",
+      "citations": [
+        {
+          "document": "expense-policy.md",
+          "section": "Expense Reimbursement Policy > 5.2 Required Documentation",
+          "snippet": "Receipts are required for all expenses over **$25**. For expenses under $25, a written description of the expense is sufficient."
+        }
+      ],
+      "expected_sources": [
+        "expense-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 9.855
+    },
+    {
+      "id": 10,
+      "question": "What are the core hours for remote workers?",
+      "topic": "remote_work",
+      "answer": "Remote employees must be available during core hours: 10:00 AM to 3:00 PM in their local time zone. Outside core hours, employees may flex their remaining work time to complete their required hours. [Source: remote-work-policy.md, Section: Remote Work Policy > 5. Availability and Communication > 5.1 Core Hours]",
+      "citations": [
+        {
+          "document": "remote-work-policy.md",
+          "section": "Remote Work Policy > 5. Availability and Communication > 5.1 Core Hours",
+          "snippet": "All remote employees must be available during **core hours: 10:00 AM to 3:00 PM** in their local time zone."
+        }
+      ],
+      "expected_sources": [
+        "remote-work-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.87
+    },
+    {
+      "id": 11,
+      "question": "Can I work fully remote?",
+      "topic": "remote_work",
+      "answer": "To be eligible for fully remote work, you must live more than 75 miles from the nearest office, have been with the company for 1+ years with consistently strong performance, and have VP-level approval. You can find more information in the Remote Work Policy, specifically in the section on Fully Remote arrangements.",
+      "citations": [
+        {
+          "document": "remote-work-policy.md",
+          "section": "Remote Work Policy > 3. Remote Work Arrangements > 3.2 Fully Remote",
+          "snippet": "Fully remote arrangements are available for employees who: - Live more than 75 miles from the nearest office - Have been with the company for 1+ years with consistently strong performance - Have VP-level approval"
+        }
+      ],
+      "expected_sources": [
+        "remote-work-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.615
+    },
+    {
+      "id": 12,
+      "question": "Is there a home office equipment stipend?",
+      "topic": "remote_work",
+      "answer": "Yes, Meridian Technologies provides a one-time $500 home office stipend for ergonomic furniture (desk, chair) after completing 6 months of employment. Approval is through HR. This stipend is available to remote employees who meet the eligibility criteria.",
+      "citations": [
+        {
+          "document": "remote-work-policy.md",
+          "section": "Remote Work Policy > 4. Workspace Requirements > 4.2 Equipment",
+          "snippet": "Employees may request a one-time $500 home office stipend for ergonomic furniture (desk, chair) after completing 6 months of employment. Approval is through HR."
+        }
+      ],
+      "expected_sources": [
+        "remote-work-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 11.655
+    },
+    {
+      "id": 13,
+      "question": "How many floating holidays do I get?",
+      "topic": "holidays",
+      "answer": "As a full-time employee, you receive 2 floating holidays per calendar year. Part-time employees receive 1 floating holiday per year. You can use these holidays for religious observances, cultural celebrations, personal occasions, or any other purpose you choose.",
+      "citations": [
+        {
+          "document": "holiday-policy.md",
+          "section": "Company Holiday Policy > 3. Floating Holidays",
+          "snippet": "In addition to company-observed holidays, all full-time employees receive 2 floating holidays per calendar year."
+        },
+        {
+          "document": "holiday-policy.md",
+          "section": "Company Holiday Policy > 3.1 Floating Holiday Guidelines",
+          "snippet": "Part-time employees receive 1 floating holiday per year"
+        }
+      ],
+      "expected_sources": [
+        "holiday-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 12.684
+    },
+    {
+      "id": 14,
+      "question": "Is Juneteenth a company holiday?",
+      "topic": "holidays",
+      "answer": "Yes, Juneteenth is a company-observed holiday. According to the Company Holiday Policy, Meridian Technologies observes Juneteenth on June 19 as one of its 11 paid holidays each calendar year [Source: holiday-policy.md, Section: Company Holiday Policy > 2. Company-Observed Holidays (2025)].",
+      "citations": [
+        {
+          "document": "holiday-policy.md",
+          "section": "Company Holiday Policy > 2. Company-Observed Holidays (2025)",
+          "snippet": "June 19 | Juneteenth"
+        }
+      ],
+      "expected_sources": [
+        "holiday-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 11.128
+    },
+    {
+      "id": 15,
+      "question": "What is the company's policy on accepting gifts from vendors?",
+      "topic": "conduct",
+      "answer": "According to our Code of Conduct, employees may accept modest gifts valued at $50 or less per occasion. Gifts exceeding $50 must be reported to the Legal department. Cash gifts or gift cards are never acceptable. [Source: code-of-conduct.md, Section: Code of Conduct > 5. Conflicts of Interest > 5.3 Gifts and Entertainment]",
+      "citations": [
+        {
+          "document": "code-of-conduct.md",
+          "section": "Code of Conduct > 5. Conflicts of Interest > 5.3 Gifts and Entertainment",
+          "snippet": "Employees may accept modest gifts valued at $50 or less per occasion"
+        }
+      ],
+      "expected_sources": [
+        "code-of-conduct.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.916
+    },
+    {
+      "id": 16,
+      "question": "How do I report workplace harassment?",
+      "topic": "conduct",
+      "answer": "You can report workplace harassment through any of the following channels: direct manager (unless the manager is the subject of the complaint), HR department (hr@meridiantech.com or extension 4200), anonymous ethics hotline (1-800-555-ETHIC), or Chief People Officer. All reports will be investigated promptly, thoroughly, and confidentially. Retaliation against anyone who reports harassment in good faith is strictly prohibited and will result in severe disciplinary action.",
+      "citations": [
+        {
+          "document": "code-of-conduct.md",
+          "section": "Code of Conduct > 4. Anti-Harassment and Non-Discrimination > 4.3 Reporting Harassment",
+          "snippet": "Employees who experience or witness harassment should report it through any of the following channels..."
+        }
+      ],
+      "expected_sources": [
+        "code-of-conduct.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 12.678
+    },
+    {
+      "id": 17,
+      "question": "What is the company match for 401k?",
+      "topic": "benefits",
+      "answer": "The company match for the 401(k) plan is 100% match on the first 4% of salary, plus 50% match on the next 2% (maximum company contribution: 5% of salary).",
+      "citations": [
+        {
+          "document": "benefits-policy.md",
+          "section": "Employee Benefits Policy > 4. Retirement Benefits > 4.1 401(k) Plan",
+          "snippet": "Company match: 100% match on the first 4% of salary, plus 50% match on the next 2% (maximum company contribution: 5% of salary)"
+        }
+      ],
+      "expected_sources": [
+        "benefits-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.782
+    },
+    {
+      "id": 18,
+      "question": "How much parental leave do birth parents get?",
+      "topic": "benefits",
+      "answer": "Birth parents are eligible for 12 weeks of fully paid parental leave, and 4 additional weeks at 60% pay. Leave may begin up to 2 weeks before the expected due date.",
+      "citations": [
+        {
+          "document": "benefits-policy.md",
+          "section": "Employee Benefits Policy > 6. Parental Leave > 6.1 Birth Parents",
+          "snippet": "Birth parents are eligible for: - **12 weeks** of fully paid parental leave - **4 additional weeks** at 60% pay"
+        }
+      ],
+      "expected_sources": [
+        "benefits-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 9.746
+    },
+    {
+      "id": 19,
+      "question": "What is the tuition reimbursement limit?",
+      "topic": "benefits",
+      "answer": "The tuition reimbursement limit is up to $5,250/year for job-related degree programs or certifications. This requires manager and HR approval before enrollment.",
+      "citations": [
+        {
+          "document": "benefits-policy.md",
+          "section": "Employee Benefits Policy > 7. Additional Benefits > 7.2 Tuition Reimbursement",
+          "snippet": "Employees with 1+ years of service may receive tuition reimbursement of up to **$5,250/year** for job-related degree programs or certifications."
+        }
+      ],
+      "expected_sources": [
+        "benefits-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 11.852
+    },
+    {
+      "id": 20,
+      "question": "What class of air travel is allowed for a 7-hour flight?",
+      "topic": "travel",
+      "answer": "For a 7-hour flight, the approved class of air travel is premium economy, according to the Business Travel Policy [Source: travel-policy.md, Section: 3. Air Travel > 3.1 Class of Service].",
+      "citations": [
+        {
+          "document": "travel-policy.md",
+          "section": "3. Air Travel > 3.1 Class of Service",
+          "snippet": "4\u20136 hours | Economy (economy plus/comfort+ permitted) |"
+        }
+      ],
+      "expected_sources": [
+        "travel-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 11.929
+    },
+    {
+      "id": 21,
+      "question": "What is the hotel budget for travel to New York City?",
+      "topic": "travel",
+      "answer": "The hotel budget for travel to New York City is $250 per night, as per the company's expense policy [Source: expense-policy.md, Section: Expense Reimbursement Policy > 4. Expense Categories and Limits > 4.3 Travel \u2014 Lodging].",
+      "citations": [
+        {
+          "document": "expense-policy.md",
+          "section": "Expense Reimbursement Policy > 4. Expense Categories and Limits > 4.3 Travel \u2014 Lodging",
+          "snippet": "Employees should use the company's preferred hotel booking platform (currently Navan) to access negotiated corporate rates. Airbnb is permitted for stays of 5+ nights with manager approval."
+        }
+      ],
+      "expected_sources": [
+        "travel-policy.md"
+      ],
+      "citation_correct": false,
+      "groundedness_score": 1.0,
+      "latency_seconds": 14.547
+    },
+    {
+      "id": 22,
+      "question": "How long does the company retain employee records?",
+      "topic": "data_privacy",
+      "answer": "The company retains employee records for 7 years after termination, after which they are securely deleted.",
+      "citations": [
+        {
+          "document": "data-privacy-policy.md",
+          "section": "Data Privacy Policy > 6. Data Retention > 6.1 Retention Periods",
+          "snippet": "Employee records | 7 years after termination | Secure deletion"
+        }
+      ],
+      "expected_sources": [
+        "data-privacy-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.195
+    },
+    {
+      "id": 23,
+      "question": "What are my rights regarding my personal data held by the company?",
+      "topic": "data_privacy",
+      "answer": "As per our Data Privacy Policy, you have the right to access, deletion, and other rights regarding your personal data held by the company. You can request a copy of all personal data we hold about you within 30 days [Source: data-privacy-policy.md, Section: 7.1 Right of Access]. You also have the right to request deletion of your personal data when it is no longer necessary for its original purpose, you withdraw consent, or there is no overriding legitimate interest or legal requirement for retention [Source: data-privacy-policy.md, Section: 7.3 Right to Deletion].",
+      "citations": [
+        {
+          "document": "data-privacy-policy.md",
+          "section": "7.1 Right of Access",
+          "snippet": "Individuals may request a copy of all personal data we hold about them. Requests must be fulfilled within **30 days**."
+        },
+        {
+          "document": "data-privacy-policy.md",
+          "section": "7.3 Right to Deletion",
+          "snippet": "Individuals may request deletion of their personal data when: - The data is no longer necessary for its original purpose - They withdraw consent - There is no overriding legitimate interest or legal requirement for retention"
+        }
+      ],
+      "expected_sources": [
+        "data-privacy-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 1.0,
+      "latency_seconds": 10.987
+    },
+    {
+      "id": 24,
+      "question": "What happens during the first week of onboarding?",
+      "topic": "onboarding",
+      "answer": "During the first week of onboarding, new employees will complete mandatory training modules, shadow team members on key workflows, attend department overview sessions, have 1:1 meetings with key stakeholders, and set up their development environment (for engineering roles). They will also review current projects and documentation. On Day 1, they will meet their manager, receive IT setup, attend HR orientation, and participate in a welcome lunch with the team. They will also meet their onboarding buddy and set up their workspace. The first week is a structured orientation period that sets the stage for a successful onboarding experience.",
+      "citations": [
+        {
+          "document": "onboarding-policy.md",
+          "section": "New Employee Onboarding Policy > 3. Week 1: Orientation > 3.2 Days 2\u20135",
+          "snippet": "Complete mandatory training modules (see Section 4), shadow team members on key workflows, attend department overview sessions, 1:1 meetings with key stakeholders identified by manager, set up development environment (for engineering roles), review current projects and documentation."
+        },
+        {
+          "document": "onboarding-policy.md",
+          "section": "New Employee Onboarding Policy > 3. Week 1: Orientation > 3.1 Day 1",
+          "snippet": "Meet manager at reception; building tour, IT setup: laptop, badges, system access, HR orientation: company overview, policies, benefits overview, welcome lunch with team (company-sponsored), meet with manager: role overview, 30-60-90 day plan, meet onboarding buddy; workspace setup, self-paced: Review employee handbook, explore HR portal, Day 1 wrap-up with manager"
+        }
+      ],
+      "expected_sources": [
+        "onboarding-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": 0.5,
+      "latency_seconds": 13.324
+    },
+    {
+      "id": 25,
+      "question": "How long is the probationary period for new hires?",
+      "topic": "onboarding",
+      "answer": "The probationary period for new hires is 90 days, beginning on their start date.",
+      "citations": [
+        {
+          "document": "onboarding-policy.md",
+          "section": "New Employee Onboarding Policy > 7. Probationary Period > 7.1 Duration",
+          "snippet": "All new employees are subject to a **90-day probationary period** beginning on their start date."
+        }
+      ],
+      "expected_sources": [
+        "onboarding-policy.md"
+      ],
+      "citation_correct": true,
+      "groundedness_score": -1,
+      "latency_seconds": 11.372
+    }
+  ]
+}
