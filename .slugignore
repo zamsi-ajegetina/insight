@@ -1,0 +1,9 @@
+.venv
+vectorstore
+evaluation
+corpus
+*.md
+docs/
+.git
+__pycache__
+*.pyc
